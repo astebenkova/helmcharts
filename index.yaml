@@ -1,0 +1,21 @@
+apiVersion: v1
+entries:
+  jenkins:
+  - apiVersion: v1
+    appVersion: lts
+    created: "2020-10-01T13:43:55.174964749Z"
+    deprecated: true
+    description: A stolen chart just for example to push smth in the repo.
+    digest: 4d0c8da68bafcc7165c4b1a45d69b7f302e0fe0e902bc77279e1f33217f04909
+    home: https://jenkins.io/
+    icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png
+    name: jenkins
+    sources:
+    - https://github.com/jenkinsci/jenkins
+    - https://github.com/jenkinsci/docker-jnlp-slave
+    - https://github.com/maorfr/kube-tasks
+    - https://github.com/jenkinsci/configuration-as-code-plugin
+    urls:
+    - jenkins-2.5.4.tgz
+    version: 2.5.4
+generated: "2020-10-01T13:43:55.171825311Z"
