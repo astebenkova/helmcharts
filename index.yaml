@@ -1,38 +1,13 @@
 apiVersion: v1
 entries:
-  jenkins:
+  gifsearch:
   - apiVersion: v1
-    appVersion: lts
-    created: "2020-10-01T14:08:46.785408946Z"
-    deprecated: true
-    description: A stolen Jenkins chart without PVC.
-    digest: f1382938dd5b0e26e619186a39659e983d02b8f5e9c32111d5b7f471fd8a516d
-    home: https://jenkins.io/
-    icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png
-    name: jenkins
-    sources:
-    - https://github.com/jenkinsci/jenkins
-    - https://github.com/jenkinsci/docker-jnlp-slave
-    - https://github.com/maorfr/kube-tasks
-    - https://github.com/jenkinsci/configuration-as-code-plugin
+    appVersion: "1.0"
+    created: "2020-10-06T09:07:31.525148198Z"
+    description: A Helm chart for gifsearch application
+    digest: cbbd3eb4f1e9829588123503e7df372865c6b331c8cb9382064bd641fc0174aa
+    name: gifsearch
     urls:
-    - jenkins-2.6.0.tgz
-    version: 2.6.0
-  - apiVersion: v1
-    appVersion: lts
-    created: "2020-10-01T14:08:46.78289175Z"
-    deprecated: true
-    description: A stolen chart just for example to push smth in the repo.
-    digest: 4d0c8da68bafcc7165c4b1a45d69b7f302e0fe0e902bc77279e1f33217f04909
-    home: https://jenkins.io/
-    icon: https://wiki.jenkins-ci.org/download/attachments/2916393/logo.png
-    name: jenkins
-    sources:
-    - https://github.com/jenkinsci/jenkins
-    - https://github.com/jenkinsci/docker-jnlp-slave
-    - https://github.com/maorfr/kube-tasks
-    - https://github.com/jenkinsci/configuration-as-code-plugin
-    urls:
-    - jenkins-2.5.4.tgz
-    version: 2.5.4
-generated: "2020-10-01T14:08:46.779860175Z"
+    - gifsearch-1.1.0.tgz
+    version: 1.1.0
+generated: "2020-10-06T09:07:31.523924081Z"
