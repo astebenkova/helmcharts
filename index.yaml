@@ -3,11 +3,20 @@ entries:
   gifsearch:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-10-06T09:07:31.525148198Z"
+    created: "2020-10-12T13:43:40.909298618Z"
+    description: A Helm chart for gifsearch application
+    digest: 991a2d3d6836f4ae8ef4e80f2c91dfbc7dd220f3d0b55fe631a20125c2beb4bb
+    name: gifsearch
+    urls:
+    - gifsearch-1.2.0.tgz
+    version: 1.2.0
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-10-12T13:43:40.908613344Z"
     description: A Helm chart for gifsearch application
     digest: cbbd3eb4f1e9829588123503e7df372865c6b331c8cb9382064bd641fc0174aa
     name: gifsearch
     urls:
     - gifsearch-1.1.0.tgz
     version: 1.1.0
-generated: "2020-10-06T09:07:31.523924081Z"
+generated: "2020-10-12T13:43:40.907277268Z"
