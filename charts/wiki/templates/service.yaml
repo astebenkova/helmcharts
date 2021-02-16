@@ -20,6 +20,8 @@ spec:
       targetPort: http
       protocol: TCP
       name: https
+{{ if .Values.service.externalIPs }}
   externalIPs:
-    - 192.168.38.200
+    - {{ .Values.service.externalIPs }}
+{{ end }}
   selector: {{- include "wiki.selectorLabels" . | nindent 4}}
