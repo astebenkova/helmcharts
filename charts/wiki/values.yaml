@@ -117,4 +117,4 @@ postgresql:
     ##
     size: 8Gi
 
-postgresqlPassword: ChangeMePlease
+postgresqlPassword: "ChangeMePlease"
